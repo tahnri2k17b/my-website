@@ -877,3 +877,12 @@ footer {
 .slide.active {
   display: block;
 }
+
+//mobile
+@media (max-width: 768px) {
+  .hero-content {
+    bottom: 5% !important;
+    top: auto !important;
+    transform: translateX(-50%);
+  }
+}
