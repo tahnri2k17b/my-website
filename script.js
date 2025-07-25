@@ -30,7 +30,6 @@ updateCountdown();
 const countdownInterval = setInterval(updateCountdown, 1000);
 
 // frame
-<script>
   let index = 0;
   const slides = document.querySelectorAll(".slide");
 
@@ -41,4 +40,3 @@ const countdownInterval = setInterval(updateCountdown, 1000);
   }
 
   setInterval(showSlide, 3000); // change slide every 3 seconds
-</script>
