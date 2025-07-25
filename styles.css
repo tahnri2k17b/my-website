@@ -862,32 +862,3 @@ footer {
   background-image: none;
   background-color: var(--light-bg);
 }
-
-//mobile
-@media (max-width: 768px) {
-  .hero-content {
-    bottom: 5% !important;
-    top: auto !important;
-    transform: translateX(-50%);
-  }
-}
-
-//youtube
-.slideshow {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.slide {
-  display: none;
-  width: 100%;
-  transition: opacity 1s ease-in-out;
-}
-
-.slide.active {
-  display: block;
-}
