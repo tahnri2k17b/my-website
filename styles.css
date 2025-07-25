@@ -86,7 +86,7 @@ img {
   z-index: 2;
 }
 .hero-names {
-  font-family: var(--script-font);
+  font-family: 'Allura', cursive;
   font-size: 3rem;
   letter-spacing: 2px;
   margin-bottom: 15rem;
