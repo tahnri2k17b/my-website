@@ -863,26 +863,6 @@ footer {
   background-color: var(--light-bg);
 }
 
-// youtube
-.slideshow {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.slide {
-  display: none;
-  width: 100%;
-  transition: opacity 1s ease-in-out;
-}
-
-.slide.active {
-  display: block;
-}
-
 //mobile
 @media (max-width: 768px) {
   .hero-content {
