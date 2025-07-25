@@ -78,7 +78,12 @@ img {
 
 /* Updated hero content */
 .hero-content {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
+  z-index: 2;
 }
 .hero-names {
   font-family: var(--script-font);
